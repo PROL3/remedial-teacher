@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+    font-weight: bold;
+    font-size: 19px;
+    background-image: "Default_help_children_to_learn_3.jpg" ;
+
+    margin: 0;
+    padding: 0;
+    background-image: url('Default_help_children_to_learn_3.jpg'); /* כתובת ה-URL של קובץ התמונה */
+    background-size: cover; /* מאפשר לתמונה למלא את כל האזור */
+    background-position: center top; /* מקדם את התמונה למרכז */
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+a {
+    color: rgb(0, 255, 51); /* שימוש בשם של צבע */
+    text-decoration: none; /* להסיר קו תחתון מהקישור */
+}
+
+header {
+    background-color: #b86bbc;
+    color: #2f2e2e;
+    padding: 10px;
+    text-align: center;
+}
+
+.specific-line {
+    color: rgba(182, 76, 10, 0.725); /* שימוש בשם של צבע */
+}
+
+
+nav {
+    background-color: #e8a1a1;
+    padding: 5px;
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+   
+}
+nav ul li a {
+    color: #222;
+    text-decoration: none;
+}
+#teacher-image {
+     width:140px; 
+     margin-right: 10px; /* הזזת התמונה מעט מרחוק מהטקסט */
+
+     height: auto; /* האורך יתאים אוטומטית כך שלא יתעצם */
+     border-radius: 50%;
+     float: left; /* הזזת התמונה לצד שמאל */
+      position: fixed; /* קביעת התמונה למצב קבוע */
+      top: 12.5%; /* ממוקם באמצע העמוד לגובה של 50% */
+     left: 10px; /* ממוקם בצד השמאלי של המסך */
+      transform: translateY(-50%); /* מניעת תמונה ממרכז התמונה */
+       z-index: 1; /* הצגת התמונה מאחורי הטקסט */
+}
+.container p {
+position: relative; /* מציין את המיקום של הטקסט */
+z-index: 1; /* מציין את רמת ההצגה של הטקסט */
+}
+
+   
+section {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
